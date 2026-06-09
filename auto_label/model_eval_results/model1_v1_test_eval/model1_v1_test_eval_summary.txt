@@ -1,0 +1,24 @@
+[Model1 v1 best.pt Test Evaluation Summary]
+
+Model Path: C:\work\HDLT_Final\auto_label\weights\best.pt
+Data YAML: C:\work\HDLT_Final\auto_label\dataset_v1\data.yaml
+Evaluation Split: test
+
+[Overall Metrics]
+Precision Mean: 0.7152
+Recall Mean: 0.7294
+mAP50: 0.7487
+mAP50-95: 0.5374
+
+[Class-wise Metrics]
+ class_id class_name  test_object_count  mAP50_95    mAP50  precision   recall
+        0     House1                 39  0.361537 0.543439   0.532543 0.615385
+        1     House2                 45  0.340793 0.518350   0.609857 0.577778
+        2     Human1                 85  0.404532 0.715248   0.733736 0.694118
+        3     Human2                571  0.699007 0.910548   0.799722 0.886165
+        4     Human3                907  0.708882 0.919730   0.834282 0.885336
+        5       Rock                678  0.715438 0.911058   0.828903 0.864603
+        6       Tank                729  0.718619 0.920400   0.844346 0.869684
+        7      Tent1                 42  0.476158 0.739363   0.672543 0.733593
+        8       Wall                 42  0.226958 0.377506   0.444499 0.261905
+        9        car                856  0.722006 0.931297   0.851372 0.905374

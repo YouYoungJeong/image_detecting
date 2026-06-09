@@ -1,0 +1,2 @@
+﻿model,dataset,precision_mean,recall_mean,mAP50,mAP50_95
+model1_v1_best.pt,dataset_v1_test,0.7151803382261972,0.7293939593963613,0.7486937580324493,0.5373930718795116
