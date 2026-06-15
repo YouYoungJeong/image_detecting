@@ -4,7 +4,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+test.py # test
 # 가상환경
 venv/
 .env/
@@ -41,14 +41,15 @@ Thumbs.db
 # 데이터셋 / 원본 이미지 폴더
 # =========================
 
-# Roboflow 또는 직접 구성한 YOLO 데이터셋
+# YOLO 데이터셋
+auto_label/auto_check/
+auto_label/auto_lable_source/images/
+auto_label/auto_label_remodel/
+auto_label/dataset_4class_single
 dataset_v1/
-
-# 오토라벨링 대상 원본 이미지
 unlabeled_images/
-
-# 오토라벨링 결과 이미지
 auto_label_results/
+model1/dataset_v1_yolo26n_aug/
 
 # 오토라벨링 라벨 txt 결과
 # 라벨 txt까지 GitHub에서 제외하고 싶으면 아래 주석을 해제

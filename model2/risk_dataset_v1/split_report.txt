@@ -1,0 +1,11 @@
+Risk Dataset Split Report
+====================================
+Original Dir: risk_images
+Output Dir  : risk_dataset_v1
+Split Ratio : train=0.7, val=0.15, test=0.15
+Random Seed : 42
+====================================
+
+risk_0_safe: total=349, train=244, val=52, test=53
+risk_1_low: total=158, train=110, val=23, test=25
+risk_2_high: total=225, train=157, val=33, test=35

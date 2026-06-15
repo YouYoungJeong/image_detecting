@@ -1,0 +1,44 @@
+========== Model_v2 Auto Label Report ==========
+
+[경로 정보]
+MODEL_PATH: C:\Users\User\work\HDRT_FinalProject\image_detecting\auto_label\runs\detect\model_v2_train\weights\best.pt
+SOURCE_IMAGE_DIR: C:\Users\User\work\HDRT_FinalProject\image_detecting\auto_label\auto_label_source\images
+OUTPUT_DATASET_DIR: C:\Users\User\work\HDRT_FinalProject\image_detecting\auto_label\auto_labeled_remodel
+
+[설정]
+CONF_THRESHOLD: 0.25
+
+[이미지 통계]
+total_images: 5914
+labeled_images: 5492
+empty_label_images: 422
+
+[기존 클래스 탐지 개수]
+House1: 466
+House2: 493
+Human1: 1101
+Human2: 4855
+Human3: 4757
+Rock: 6201
+Tank: 4960
+Tent1: 616
+Wall: 547
+car: 6069
+
+[신규 클래스 저장 개수]
+House: 959
+Human: 10713
+Tank: 4960
+car: 6069
+
+[제외 클래스 개수]
+Rock: 6201
+Tent1: 616
+Wall: 547
+
+[클래스 변환 기준]
+House1, House2 -> House
+Human1, Human2, Human3 -> Human
+Tank -> Tank
+car -> car
+Rock, Tent1, Wall -> excluded

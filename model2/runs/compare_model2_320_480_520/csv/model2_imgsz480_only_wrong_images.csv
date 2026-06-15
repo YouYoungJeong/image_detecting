@@ -1,0 +1,6 @@
+﻿file_name,image_path,true_label,model2_imgsz320,model2_imgsz480,model2_imgsz520,wrong_model_count
+sp0001_img000075_1781082224175.jpg,C:\Users\User\work\HDRT_FinalProject\image_detecting\model2\risk_dataset_aug\test\risk_0_safe\sp0001_img000075_1781082224175.jpg,risk_0_safe,False,True,False,1
+sp0001_img000289_1781082288115.jpg,C:\Users\User\work\HDRT_FinalProject\image_detecting\model2\risk_dataset_aug\test\risk_0_safe\sp0001_img000289_1781082288115.jpg,risk_0_safe,False,True,False,1
+sp0002_img000299_1781083049267.jpg,C:\Users\User\work\HDRT_FinalProject\image_detecting\model2\risk_dataset_aug\test\risk_1_low\sp0002_img000299_1781083049267.jpg,risk_1_low,False,True,False,1
+sp0002_img000308_1781083051829.jpg,C:\Users\User\work\HDRT_FinalProject\image_detecting\model2\risk_dataset_aug\test\risk_1_low\sp0002_img000308_1781083051829.jpg,risk_1_low,False,True,False,1
+sp0002_img000379_1781083079255.jpg,C:\Users\User\work\HDRT_FinalProject\image_detecting\model2\risk_dataset_aug\test\risk_0_safe\sp0002_img000379_1781083079255.jpg,risk_0_safe,False,True,False,1

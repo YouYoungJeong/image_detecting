@@ -1,0 +1,10 @@
+﻿model_name,class_name,true_count_row_sum,pred_count_col_sum
+model2_imgsz320,risk_0_safe,53,63
+model2_imgsz320,risk_1_low,24,15
+model2_imgsz320,risk_2_high,30,29
+model2_imgsz480,risk_0_safe,53,60
+model2_imgsz480,risk_1_low,24,19
+model2_imgsz480,risk_2_high,30,28
+model2_imgsz520,risk_0_safe,53,59
+model2_imgsz520,risk_1_low,24,26
+model2_imgsz520,risk_2_high,30,22

@@ -1,0 +1,26 @@
+Risk Dataset Augmentation Report
+====================================
+Source Dataset : risk_dataset_v1
+Output Dataset : risk_dataset_aug
+Target Train Count Per Class : 300
+Random Seed : 42
+====================================
+
+[train]
+risk_0_safe: 300
+risk_1_low: 300
+risk_2_high: 300
+total: 900
+
+[val]
+risk_0_safe: 52
+risk_1_low: 23
+risk_2_high: 33
+total: 108
+
+[test]
+risk_0_safe: 53
+risk_1_low: 25
+risk_2_high: 35
+total: 113
+

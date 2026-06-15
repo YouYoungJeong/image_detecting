@@ -1,0 +1,9 @@
+train: ../images
+val: ../images
+test: ../images
+nc: 4
+names:
+- House
+- Human
+- Tank
+- car

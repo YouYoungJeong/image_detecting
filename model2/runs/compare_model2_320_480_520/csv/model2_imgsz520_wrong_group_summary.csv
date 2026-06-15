@@ -1,0 +1,6 @@
+﻿true_label,pred_label,count
+risk_1_low,risk_0_safe,7
+risk_2_high,risk_1_low,7
+risk_2_high,risk_0_safe,3
+risk_0_safe,risk_1_low,2
+risk_0_safe,risk_2_high,2

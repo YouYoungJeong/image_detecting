@@ -1,0 +1,6 @@
+﻿true_label,pred_label,count,grid_folder
+risk_0_safe,risk_1_low,4,C:\work\HDLT_Final\model2\runs\classify\model2_risk_v1_test_visuals\grids_by_error_type\true_risk_0_safe__pred_risk_1_low
+risk_1_low,risk_0_safe,7,C:\work\HDLT_Final\model2\runs\classify\model2_risk_v1_test_visuals\grids_by_error_type\true_risk_1_low__pred_risk_0_safe
+risk_1_low,risk_2_high,5,C:\work\HDLT_Final\model2\runs\classify\model2_risk_v1_test_visuals\grids_by_error_type\true_risk_1_low__pred_risk_2_high
+risk_2_high,risk_0_safe,6,C:\work\HDLT_Final\model2\runs\classify\model2_risk_v1_test_visuals\grids_by_error_type\true_risk_2_high__pred_risk_0_safe
+risk_2_high,risk_1_low,4,C:\work\HDLT_Final\model2\runs\classify\model2_risk_v1_test_visuals\grids_by_error_type\true_risk_2_high__pred_risk_1_low

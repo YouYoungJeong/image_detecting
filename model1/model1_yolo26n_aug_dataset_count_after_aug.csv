@@ -1,0 +1,4 @@
+﻿split,image_count,object_count,class_0_objects,class_1_objects,class_2_objects,class_3_objects
+train,24948,110004,5492,54164,20500,29848
+valid,1038,4486,232,2316,712,1226
+test,1042,4200,236,2006,864,1094

@@ -1,0 +1,15 @@
+{
+    "created_at": "2026-06-14 02:30:41",
+    "run_name": "model1_yolo26n_imgsz640",
+    "imgsz": 640,
+    "pretrained_model": "yolo26n.pt",
+    "data_yaml": "C:\\Users\\User\\work\\HDRT_FinalProject\\image_detecting\\model1\\dataset_v1_yolo26n_aug\\data.yaml",
+    "epochs": 200,
+    "patience": 25,
+    "batch": 16,
+    "device": 0,
+    "workers": 4,
+    "seed": 42,
+    "train_elapsed_min": 97.35821040471394,
+    "best_path": "C:\\Users\\User\\work\\HDRT_FinalProject\\image_detecting\\model1\\runs\\detect\\model1_yolo26n_imgsz640\\weights\\best.pt"
+}

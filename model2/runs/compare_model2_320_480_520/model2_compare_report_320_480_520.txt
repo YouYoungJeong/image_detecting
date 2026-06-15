@@ -1,0 +1,29 @@
+========== Model2 320 / 480 / 520 Test Comparison Report ==========
+
+[비교 기준]
+- 동일한 risk_dataset_aug/test 데이터셋 기준으로 비교
+- 비교 모델: imgsz=320, imgsz=480, imgsz=520
+- 주요 기준 지표: accuracy, macro precision, macro recall, macro F1, wrong count
+- 위험도 분류는 클래스별 균형 성능이 중요하므로 macro F1-score를 우선 기준으로 판단
+- 오답 이미지를 함께 저장하여 정량 평가와 정성 평가를 함께 진행
+- confusion matrix의 row sum은 실제 클래스 개수이며, 모델별로 같아야 정상
+- confusion matrix의 column sum은 모델이 해당 클래스로 예측한 개수이며, 모델별로 달라도 정상
+
+[전체 결과]
+- model2_imgsz320 | imgsz=320 | accuracy=0.7850, macro_precision=0.7626, macro_recall=0.7200, macro_f1=0.7295, wrong_count=23, avg_confidence=0.8720
+- model2_imgsz480 | imgsz=480 | accuracy=0.8037, macro_precision=0.7980, macro_recall=0.7630, macro_f1=0.7761, wrong_count=21, avg_confidence=0.8418
+- model2_imgsz520 | imgsz=520 | accuracy=0.8037, macro_precision=0.7978, macro_recall=0.7665, macro_f1=0.7747, wrong_count=21, avg_confidence=0.8096
+
+[우수 모델 판단]
+- macro F1 기준 우수 모델: model2_imgsz480 (imgsz=480)
+
+[해석 기준]
+- imgsz=320 모델은 입력 크기가 작아 학습 및 추론 속도 측면에서 유리하다.
+- imgsz=480 모델은 32 배수 크기이며 포신 방향과 차체 방향 정보 보존에 유리하다.
+- imgsz=520 모델은 더 큰 입력 해상도를 사용하므로 세부 형태 보존 가능성은 높지만, 학습 및 추론 비용이 증가한다.
+- 단순 accuracy보다 risk_1_low, risk_2_high 클래스의 recall과 F1-score를 함께 확인해야 한다.
+- 오답 이미지는 confidence가 높은데 틀린 사례를 우선 확인하는 것이 좋다.
+- 세 모델이 모두 틀린 이미지는 데이터 라벨 오류, crop 품질 문제, 클래스 기준 모호성 여부를 우선 점검해야 한다.
+- 특정 모델만 틀린 이미지는 입력 이미지 크기 변화가 분류 결과에 어떤 영향을 주는지 확인하는 데 활용할 수 있다.
+- imgsz가 커졌는데 macro F1 또는 high risk recall 향상이 작다면, 실시간성 측면에서 320 또는 480 모델을 선택하는 것이 적절하다.
+- imgsz=520이 high risk 클래스 recall을 뚜렷하게 개선한다면, 위험도 판단 목적상 520 모델을 고려할 수 있다.

@@ -1,0 +1,15 @@
+﻿augmentation_module,target_count,actual_ratio
+RandomBrightnessContrast,1336,0.1607
+RandomGamma,1039,0.1249
+GaussNoise,742,0.0892
+ISONoise,742,0.0892
+RandomFog,742,0.0892
+CoarseDropout,445,0.0535
+MotionBlur,742,0.0892
+GaussianBlur,445,0.0535
+Defocus,297,0.0357
+RandomShadow,445,0.0535
+HueSaturationValue,297,0.0357
+RGBShift,297,0.0357
+ImageCompression,445,0.0535
+CLAHE,302,0.0363
